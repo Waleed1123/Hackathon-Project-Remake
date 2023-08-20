@@ -31,8 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((userCredential) => {
           const user = userCredential.user;
           console.log("Login Done", user);
+          window.location.href = "./login.js"
         })
         .catch((error) => {
+          alert("Wrong info")
           const errorCode = error.code;
           const errorMessage = error.message;
           console.log(errorMessage);
