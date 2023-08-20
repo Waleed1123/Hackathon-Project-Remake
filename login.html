@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+
+    <!-- Header Of This Site -->
+    <header class="head">
+        <div class="main">
+            <h2>Personal Blogging Website</h2>
+            <button class="btn">
+                <a href="./signup.html">
+                    sign up
+                </a>
+            </button>
+        </div>
+        <div class="sec-div">
+            <h1>Login Page</h1>
+        </div>
+
+    </header>
+
+    <!-- Login Form Started -->
+    <div class="form-main">
+        <div class="login-form">
+            <form class="form">
+
+                <label for="email">
+                    <input type="email" placeholder="Enter Your Email" id="email" required>
+                </label>
+
+                <label for="password">
+                    <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    name="password" name="password" id="password" placeholder="Enter Your password">
+                </label>
+                <p>Don't Have Account? <a href="#">sign up</a></p>
+                <button id="loginBtn" class="login-btn">
+                    Log in
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+<script type="module" src="./login.js"></script>
+</body>
+
+</html>
