@@ -8,17 +8,29 @@
     border: 1px solid black;
     /* margin-top: 20px; */
     margin: 20px auto;
-    padding: 2rem;
-    
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
 }
 img{
-    width: 50px;
-    border-radius: 50%;
+    padding: 10px;
+    background-color: red;
+    width: 40px;
 }
 .img-div{
     display: flex;
-    justify-content:safe;
-    align-items: center;
-    margin: 10px auto;
+    /* align-items:center; */
+    /* justify-content: space-around; */
+}
+p{
+    display: block;
+}
+.question{
+       
+}
+.blog{
+    margin: 20px;
 
 }
